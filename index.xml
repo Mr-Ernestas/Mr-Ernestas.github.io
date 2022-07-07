@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://mr-ernestas.github.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://mr-ernestas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>That how I solved the Python-React</title>
+      <link>http://mr-ernestas.github.io/posts/creating-a-new-theme/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://mr-ernestas.github.io/posts/creating-a-new-theme/</guid>
+      <description>const nodecallspython = require(&amp;ldquo;node-calls-python&amp;rdquo;); const path = require(&amp;ldquo;path&amp;rdquo;)
+let py = nodecallspython.interpreter;
+py.import(path.join(__dirname,&amp;ldquo;count.py&amp;rdquo;)).then(async function(pymodule) { let pyobj = await py.create(pymodule, &amp;ldquo;Main&amp;rdquo;, 50); let result = await py.call(pyobj, &amp;ldquo;r_count&amp;rdquo;); });</description>
+    </item>
+    
+  </channel>
+</rss>
